@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VD2_Bài 8 </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var s="HTML & JAVASCRIPT";
+            var a=new Array();
+            for(i=0;i<s.length;i++)
+            {
+	            var j=0;
+	            while(j<a.length)
+	            {
+		            if(a[j]==s.charAt(i))
+			        break;
+		            j++;
+	            }
+	            if(j==a.length)
+		            a.push(s.charAt(i));
+}
+alert("Số ký tự khác nhau là " + a.length + " : " + a.toString());
+        </script>
+    </body>
+</html>
